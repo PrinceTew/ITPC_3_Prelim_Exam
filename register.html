@@ -1,19 +1,36 @@
 <!DOCTYPE html> 
 <html lang ="en">
+    
+    <style>
+        .background_register{
+            background-color: darkolivegreen;
+        }
+        .btn_color{
+            background-color: black;
+        }
+        #font_style{
+            font-size: x-large;
+        }
+        #btn_font_color{
+            color: white;
+        }
+
+    </style>
+  
     <head>
         <title>Registration</title>
     </head>
 
-    <body>
+    <body class="background_register">
         <div style="text-align: center;">
             <h1>Registration Page</h1>
-        <div >username: <input type="text" placeholder="Username"></div>    
-        
-        <div>password: <input type="text" placeholder="Password"></div>
-        <div>comfirm password: <input type="text" placeholder="Confirm Password"></div>
-        <div>first name: <input type="text" placeholder="First Name"></div>
-        <div>last name: <input type="text" placeholder="Last Name"></div>
+
+        <div id="font_style">username: <input type="text" placeholder="Username"></div>    
+        <div id="font_style">password: <input type="text" placeholder="Password"></div>
+        <div id="font_style">comfirm password: <input type="text" placeholder="Confirm Password"></div>
+        <div id="font_style">first name: <input type="text" placeholder="First Name"></div>
+        <div id="font_style">last name: <input type="text" placeholder="Last Name"></div>
             
-        <div><button>Cancel</button><button>Register</button></div>    
+        <div><button class="btn_color" id="btn_font_color">Cancel</button> <button class="btn_color" id="btn_font_color">Register</button></div>    
         </div>
     </body>
