@@ -14,6 +14,9 @@
         #btn_font_color{
             color: white;
         }
+        #btn_font_color1{
+            color: white;
+        }
 
     </style>
   
@@ -31,6 +34,20 @@
         <div id="font_style">first name: <input type="text" placeholder="First Name"></div>
         <div id="font_style">last name: <input type="text" placeholder="Last Name"></div>
             
-        <div><button class="btn_color" id="btn_font_color">Cancel</button> <button class="btn_color" id="btn_font_color">Register</button></div>    
-        </div>
+        <div>
+            <a href="index.html">
+                <button class="btn_color" id="btn_font_color1"> Cancel </button>
+            </a>
+            
+            <button class="btn_color" id="btn_font_color">Register</button>
+        </div>    
+    </div>
     </body>
+
+    <script>
+        let buttonLogin = document.querySelector('#btn_font_color')
+        buttonLogin.onclick = function () {
+            alert("Registered Successfully.")
+        }
+    </script>
+</html>
