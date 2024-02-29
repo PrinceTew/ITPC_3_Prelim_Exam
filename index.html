@@ -25,9 +25,8 @@
     <head>
         <title>Homepage</title>
     </head>
-
     <body class="bg_index">
-   <div style="text-align: center " style =>
+   <div style="text-align: center " >
             <h1 id="font_color">Login Page</h1>
       
         <input class="bg_txt" type="text" placeholder="Username">
@@ -35,13 +34,21 @@
      
       <div style="margin-top: 1rem;">
       <div>
-        <button  class="btn_color" id="btn_font_color">Login
+        <button  class="btn_color"  id="btn_font_color">Login
     </button>
     <a href="./register.html">
         <button class="btn_color" id="btn_font_color">Register</button>
     </a>
-
     </div>
-    
     </body>
+
+
+    <script>
+        // Javascript
+        let buttonLogin = document.querySelector('#btn_font_color')
+        buttonLogin.onclick = function () {
+            alert("Login Successfully.")
+        }
+    </script>
+    
 </html>
